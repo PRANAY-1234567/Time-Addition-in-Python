@@ -10,17 +10,14 @@ class Time:
     def addition(self, x):
         r = Time()
 
-        # Add seconds
         r.sec = self.sec + x.sec
         r.min = r.sec // 60
         r.sec = r.sec % 60
 
-        # Add minutes
         r.min = r.min + self.min + x.min
         r.hrs = r.min // 60
         r.min = r.min % 60
 
-        # Add hours
         r.hrs = r.hrs + self.hrs + x.hrs
 
         return r
