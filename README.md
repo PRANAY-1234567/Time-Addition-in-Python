@@ -150,3 +150,5 @@ def addition(self, x):
 ## 📄 License
 
 Open-source and free to use.
+
+<img width="744" height="698" alt="image" src="https://github.com/user-attachments/assets/87e3ce9c-b262-4571-98bb-4fb8d8f24007" />
