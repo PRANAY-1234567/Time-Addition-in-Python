@@ -100,26 +100,6 @@ t3.display()
 
 ---
 
-## ⚠️ Improvement (Cleaner Logic)
-
-Your logic works, but here’s a cleaner approach using total seconds:
-
-```python id="p8x1sd"
-def addition(self, x):
-    total_sec = (self.hrs*3600 + self.min*60 + self.sec) + \
-                (x.hrs*3600 + x.min*60 + x.sec)
-
-    hrs = total_sec // 3600
-    total_sec %= 3600
-    min = total_sec // 60
-    sec = total_sec % 60
-
-    return Time(hrs, min, sec)
-```
-
-👉 Easier to understand and less error-prone.
-
----
 
 ## 📚 Concepts Used
 
