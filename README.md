@@ -77,8 +77,6 @@ t2.display()
 t3.display()
 ```
 
----
-
 ## ▶️ Output
 
 ```id="m7q2zn"
