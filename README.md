@@ -89,6 +89,7 @@ t3.display()
 
 ## 🧠 Key Concept
 
+
 * Objects can be **passed as arguments**
 * Methods can **return objects**
 * Carry logic:
